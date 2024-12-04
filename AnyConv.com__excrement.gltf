@@ -1,0 +1,126 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.0.5eb040c7)"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 6117,
+            "type": "VEC3",
+            "max": [
+                1.724367618560791,
+                0.18357421457767487,
+                0.8888744711875916
+            ],
+            "min": [
+                -0.14002454280853272,
+                -1.4490153789520264,
+                -0.3278588652610779
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 36702,
+            "type": "SCALAR",
+            "max": [
+                6116
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 220212,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 73404,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 73404,
+            "byteLength": 146808,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "Cartoon.001",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.8482106924057007
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "mesh",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 1,
+                    "attributes": {
+                        "POSITION": 0
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Retopo_BézierCurve",
+            "matrix": [
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.000028212996767251754,
+                -100.0,
+                0.0,
+                0.0,
+                100.0,
+                -0.000028212996767251754,
+                0.0,
+                0.0,
+                29.86994743347168,
+                0.0,
+                1.0
+            ],
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
